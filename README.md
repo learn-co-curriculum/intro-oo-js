@@ -350,5 +350,6 @@ We're well on our way to having a whole menagerie of `Animal`s. We can probably 
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Type_system) - [Type system](https://en.wikipedia.org/wiki/Type_system)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) - [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript) = [Introduction to Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
 
 <a href="https://learn.co/lessons/introduction-to-object-oriented-javascript" data-visibility='hidden'>View this lesson on Learn.co</a>
