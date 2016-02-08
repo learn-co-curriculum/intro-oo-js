@@ -252,7 +252,7 @@ The first thing you should notice is that the `Cat` constructor now accepts an a
 
 The second thing you'll notice is `Animal.call(this, 4)`. Recall that `this` inside the `Cat` constructor is the new instance of `Cat` being constructed. The function `call()` and its sibling `apply()` let us _change_ the `this` value of the function that they're calling. These functions, `call()` and `apply()`, are largely the same — both take the value being substituted for `this` as their first argument — differing only in how they handle subsequent arguments: `call()` expects an arbitrary number of additional arguments (zero to many), while `apply()` expects either nothing or an array as its second argument. `Animal.call(this, 4, sound)` is the same as `Animal.apply(this, [4, sound])`.
 
-In the case of `Cat()`, we call `Animal()` not as a constructor (that requires the `new` keyword) but as a plain function, passing it the new `instance` of `Cat` for its this value and the number `4` for its `numberOfLegs` parameter. Let's try it out to see how it works:
+In the case of `Cat()`, we call `Animal()` not as a constructor (that requires the `new` keyword) but as a plain function, passing it the new `instance` of `Cat` for its `this` value and the number `4` for its `numberOfLegs` parameter. Let's try it out to see how it works:
 
 ```javascript
 var tabby = new Cat('mraw')
@@ -350,6 +350,6 @@ We're well on our way to having a whole menagerie of `Animal`s. We can probably 
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Type_system) - [Type system](https://en.wikipedia.org/wiki/Type_system)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) - [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
-* [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript) = [Introduction to Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript) - [Introduction to Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
 
 <a href="https://learn.co/lessons/introduction-to-object-oriented-javascript" data-visibility='hidden'>View this lesson on Learn.co</a>
